@@ -47,7 +47,13 @@ export default function Hero() {
           </Link>
         </button>
 
-        <button className='btn btn-outline btn-primary'>Download CV</button>
+        <a
+          href='/abijitnath-resume.pdf'
+          target='_blank'
+          className='btn btn-outline btn-primary'
+        >
+          Download CV
+        </a>
       </motion.div>
     </motion.section>
   );
