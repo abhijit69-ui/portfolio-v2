@@ -50,7 +50,13 @@ export default function Profile() {
           })}
         </div>
 
-        <button className='btn btn-primary btn-md mt-2'>Let's Work!</button>
+        <a
+          href='https://mail.google.com/mail/?view=cm&fs=1&to=abhijitnath100th@gmail.com'
+          target='_blank'
+          className='btn btn-primary btn-md mt-2'
+        >
+          Let's Work!
+        </a>
       </div>
     </aside>
   );

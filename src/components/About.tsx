@@ -33,7 +33,13 @@ export default function About() {
       </motion.p>
 
       <motion.div variants={fadeUp} transition={{ delay: 0.2 }}>
-        <button className='btn btn-primary mt-5'>Contact Me</button>
+        <a
+          href='https://mail.google.com/mail/?view=cm&fs=1&to=abhijitnath100th@gmail.com'
+          target='_blank'
+          className='btn btn-primary mt-5'
+        >
+          Contact Me
+        </a>
       </motion.div>
     </motion.section>
   );

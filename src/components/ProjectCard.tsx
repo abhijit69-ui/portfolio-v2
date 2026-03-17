@@ -26,7 +26,11 @@ export default function ProjectCard({
         >
           {/* Title + Live */}
           <div className='flex items-center justify-between'>
-            <h3 className='text-base-100 font-semibold text-md'>{title}</h3>
+            <a href={projectLink} target='_blank'>
+              <h3 className='text-base-100 font-semibold text-md hover:text-primary drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]'>
+                {title}
+              </h3>
+            </a>
 
             <a
               href={projectLink}

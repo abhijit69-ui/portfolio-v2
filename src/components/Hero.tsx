@@ -1,4 +1,5 @@
 import { motion } from 'motion/react';
+import { Link } from 'react-scroll';
 import { fadeUp, staggerContainer } from '../lib/animations';
 import { SparkleIcon } from 'lucide-react';
 
@@ -41,7 +42,9 @@ export default function Hero() {
 
       <motion.div variants={fadeUp} className='mt-5 flex gap-2'>
         <button className='btn btn-primary'>
-          <a href='#projects'>My projects</a>
+          <Link to='projects' smooth={true} duration={1000} offset={-80}>
+            My projects
+          </Link>
         </button>
 
         <button className='btn btn-outline btn-primary'>Download CV</button>

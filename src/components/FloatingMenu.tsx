@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { navLinks } from '../constants';
 import { Link } from 'react-scroll';
+import ThemeToggle from './ThemeToggle';
 
 export default function FloatingMenu() {
   const [active, setActive] = useState('#hero');
@@ -28,6 +29,7 @@ export default function FloatingMenu() {
           </Link>
         );
       })}
+      <ThemeToggle />
     </div>
   );
 }

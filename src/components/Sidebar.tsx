@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { navLinks, socialLinks } from '../constants';
 import { Link } from 'react-scroll';
+import ThemeToggle from './ThemeToggle';
 
 export default function Sidebar() {
   const [active, setActive] = useState('#hero');
@@ -55,6 +56,9 @@ export default function Sidebar() {
               return (
                 <Link
                   to={link.link}
+                  smooth={true}
+                  duration={1000}
+                  offset={-80}
                   key={link.label}
                   onClick={() => {
                     setActive(link.link);
@@ -67,6 +71,7 @@ export default function Sidebar() {
                 </Link>
               );
             })}
+            <ThemeToggle showLabel />
           </nav>
 
           <div className='mt-30 px-3'>
