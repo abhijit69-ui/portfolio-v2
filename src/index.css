@@ -1,0 +1,16 @@
+@import 'tailwindcss';
+@plugin "daisyui" {
+  themes: all;
+}
+
+@theme {
+  --font-syne: 'Syne', sans-serif;
+}
+
+/* html {
+  scroll-behavior: smooth;
+} */
+
+body {
+  font-family: var(--font-syne);
+}
