@@ -48,7 +48,7 @@ export default function Hero() {
         </button>
 
         <a
-          href='/abijitnath-resume.pdf'
+          href='/abhijit-nath-cv.pdf'
           target='_blank'
           className='btn btn-outline btn-primary'
         >
