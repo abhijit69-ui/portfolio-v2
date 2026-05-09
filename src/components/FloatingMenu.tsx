@@ -8,7 +8,7 @@ export default function FloatingMenu() {
 
   return (
     <div
-      className='menu bg-base-100 fixed right-10 top-1/2 -translate-y-1/2 border border-base-300 pt-5 rounded-full hidden z-10
+      className='menu bg-base-100 fixed right-10 top-1/2 -translate-y-1/2 border border-base-300 pt-5 rounded-full hidden z-20
     lg:block'
     >
       {navLinks.map((link) => {

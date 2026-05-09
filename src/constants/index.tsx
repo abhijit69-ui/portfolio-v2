@@ -74,6 +74,12 @@ const socialLinks: LinksType[] = [
 
 const projectsData: ProjectType[] = [
   {
+    imgSrc: '/assets/project3.png',
+    title: 'Weekly Meal Planner & Nutrition Tracker',
+    tags: ['NextJs', 'React Query', 'Prisma', 'PostgreSQL'],
+    projectLink: 'https://mealio-nine.vercel.app/',
+  },
+  {
     imgSrc: '/assets/project1.png',
     title: 'Full-Stack Product Catalogue',
     tags: ['API', 'PERN'],
@@ -81,21 +87,9 @@ const projectsData: ProjectType[] = [
   },
   {
     imgSrc: '/assets/project2.png',
-    title: 'Responsive Agency Landing Page',
-    tags: ['React', 'Tailwind'],
+    title: 'Mini Social Feed',
+    tags: ['NextJs', 'Clerk', 'Prisma', 'PostgreSQL'],
     projectLink: 'https://topmind-care-pi.vercel.app/',
-  },
-  {
-    imgSrc: '/assets/project3.png',
-    title: 'Modern Portfolio Website',
-    tags: ['API', 'NextJs'],
-    projectLink: 'https://abijit-dev.vercel.app/',
-  },
-  {
-    imgSrc: '/assets/project4.png',
-    title: 'Full-Stack Note App With Auth',
-    tags: ['JWT', 'MERN'],
-    projectLink: 'https://kiroku-note.onrender.com/',
   },
 ];
 
@@ -121,6 +115,12 @@ const education: ExperienceType[] = [
 ];
 
 const experience: ExperienceType[] = [
+  {
+    year: '2026',
+    title: 'Software Developer Intern (Frontend)',
+    institute: 'Welldone Health',
+    desc: 'Worked on a production healthcare application, resolving frontend bugs, improving API integrations, and building responsive user-focused features using modern React workflows.',
+  },
   {
     year: '2023 - 2025',
     title: 'Aviation Security',
