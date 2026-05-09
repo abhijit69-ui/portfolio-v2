@@ -13,7 +13,7 @@ export default function Profile() {
         </div>
 
         <img
-          src='/avatar.jpg'
+          src='/myavatar.png'
           alt='Profile pic'
           className='lg:w-96 rounded-2xl object-cover'
         />

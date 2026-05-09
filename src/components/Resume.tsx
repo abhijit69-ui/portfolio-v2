@@ -62,11 +62,12 @@ export default function Resume() {
           whileInView='visible'
           viewport={{ once: true, amount: 0.3 }}
           variants={staggerContainer(0.5)}
-          className='grid grid-cols-2 gap-5 sm:grid-cols-3'
+          className='grid grid-cols-2 sm:grid-cols-3 gap-4'
         >
-          {tools.map((tool, i) => (
-            <ToolsCard key={i} tool={tool} />
-          ))}
+          {tools.map((tool, i) => {
+            const isOrphan = tools.length % 2 !== 0 && i === tools.length - 1;
+            return <ToolsCard key={i} tool={tool} isOrphan={isOrphan} />;
+          })}
         </motion.div>
       </div>
     </motion.section>
